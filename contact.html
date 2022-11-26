@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../Portfolio website/fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="../Portfolio website/fontawesome/css/solid.css">
+    <link rel="stylesheet" href="../Portfolio website/fontawesome/css/brands.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400&family=Inconsolata:wght@300&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header class="home_header">
+        <div class="logo">
+            <a href="index.html"><span class="logotxt">A</span>LL<span class="logotxt">E</span>N<span
+                    class="logotxt">.</span></a>
+        </div>
+
+        <i class="fa-solid fa-bars" id="menuicon"></i>
+
+        <nav class="navbar">
+            <ul class="navlist">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="index.html">Projects</a></li>
+                <li><a href="index.html">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div>
+            <a href="darkcontact.html" class="blackmoon"><img src="./Images/black_moon.png"></a>
+        </div>
+    </header>
+
+    <main class="contact" id="contact">
+        <form action="#" autocomplete="on">
+            <h1>Contact Me</h1>
+            <table>
+                <tr>
+                    <td><label for="fname">First Name</label></td>
+                    <td><input type="text" name="fname" id="fname" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="lname">Last Name</label></td>
+                    <td><input type="text" name="lname" id="lname" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="email" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="subject">Subject</label></td>
+                    <td><input type="text" name="subject" id="subject" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="message">Message</label>
+                    <td><textarea name="message" id="message" cols="40" rows="5" required></textarea></td>
+                </tr>
+
+                <td><button type="submit">Send Message</button></td>
+            </table>
+        </form>
+
+        <div class="contact_info">
+            <h2>Contact Info</h2>
+            <p><i class="fa-solid fa-location-dot"></i> Lagos, Nigeria</p>
+            <p><i class="fa-solid fa-phone"></i> +234 739 23 564</p>
+            <p><i class="fa-solid fa-envelope"></i> info@allen.com</p>
+        </div>
+    </main>
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
